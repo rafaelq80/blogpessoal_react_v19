@@ -1,9 +1,9 @@
-import { useState, useContext, useEffect } from "react"
+import { useContext, useEffect, useState } from "react"
 import { useNavigate, useParams } from "react-router-dom"
+import { ClipLoader } from "react-spinners"
 import { AuthContext } from "../../../contexts/AuthContext"
 import type Tema from "../../../models/Tema"
 import { buscar, deletar } from "../../../services/Service"
-import { ClipLoader } from "react-spinners";
 
 function DeletarTema() {
 
